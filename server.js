@@ -16,7 +16,7 @@ mongoose.connect("mongodb+srv://Naveen_Vashistha:"+process.env.MONGO_PASSWORD+"@
 
 app.use(cors({
     credentials: true,
-    origin: ["http://localhost:3000"]
+    origin: ["https://billsplit26.herokuapp.com/"]
 }));
 
 
